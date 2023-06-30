@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #e2e2e2;
+}
